@@ -2,9 +2,11 @@
 
 **AI agents for incident management on Kubernetes, connected to infrastructure through MCP.**
 
-Argus SRE is the platform built for my university thesis on how AI agents can investigate production incidents. When an alert fires, an agent gathers evidence from the affected cluster and its monitoring, writes a root cause analysis, and then answers engineers' questions about it in a chat.
+🌐 **Live platform: [argussre.com](https://argussre.com)**
 
-The thesis question: *can an agent with read-only access through the Model Context Protocol (MCP) find the root cause of real Kubernetes failures, and can its conclusions be trusted?* Argus SRE is the system built to explore that question end to end, from the alert to the report.
+[Argus SRE](https://argussre.com) is the platform built for my university thesis on how AI agents can investigate production incidents. When an alert fires, an agent gathers evidence from the affected cluster and its monitoring, writes a root cause analysis, and then answers engineers' questions about it in a chat.
+
+The thesis question: *can an agent with read-only access through the Model Context Protocol (MCP) find the root cause of real Kubernetes failures, and can its conclusions be trusted?* [The platform](https://argussre.com) is the system built to explore that question end to end, from the alert to the report.
 
 ## How it works
 
