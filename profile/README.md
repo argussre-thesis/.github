@@ -8,6 +8,12 @@
 
 The thesis question: *can an agent with read-only access through the Model Context Protocol (MCP) find the root cause of real Kubernetes failures, and can its conclusions be trusted?* [The platform](https://argussre.com) is the system built to explore that question end to end, from the alert to the report.
 
+## Watch it work
+
+[![Argus SRE video: connecting a cluster through to an investigated alert](setup-poster.jpg)](https://argussre.com/videos/setup.mp4)
+
+▶ [Watch the full walkthrough](https://argussre.com/videos/setup.mp4) (2:12, no sound): connect a cluster, an alert source, Grafana and Slack, then follow an alert through to its root cause and postmortem. App screens use demo data.
+
 ## How it works
 
 ```
